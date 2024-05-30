@@ -1,0 +1,173 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background-color: #f0f0f0;
+ }
+ 
+ .container {
+     font-family: "Outfit", sans-serif;
+     font-style: normal;
+     width: 80%;
+     margin: auto;
+     padding: 20px; 
+ }
+ .container h1{
+     font-family: "Major Mono Display", monospace;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 50px;
+ }
+ 
+ header {
+     background: #333;
+     color: #fff;
+     padding: 20px 0;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+ header h1 {
+     font-size: 2em;
+     margin: 0;
+ }
+ 
+ nav ul {
+     padding-top: 20px;
+     list-style: none;
+ }
+
+ nav{
+    font-size: 17px;
+     display: flex;
+     margin-right: 20px;
+     position: relative;
+     top: 10px;
+ }
+ 
+ section {
+     padding: 40px 0;
+ }
+ 
+ section h2 {
+     font-size: 2em;
+     margin-bottom: 20px;
+     color: #333;
+ }
+ 
+ section p {
+     font-size: 1.1em;
+     color: #666;
+ }
+ 
+ .foot {
+     background: #333;
+     color: #fff;
+     text-align: center;
+     padding: 10px 0;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ .foot p {
+     font-size: 0.9em;    font-family: "Major Mono Display", monospace;
+ 
+ 
+ }
+ 
+ /* Home Section Styles */
+ #home {
+     color: #fff;
+     text-align: center;
+     padding: 100px 0;
+ }
+ 
+ #home h2 {
+     font-size: 3em;
+     margin-bottom: 20px;
+ }
+ 
+ #home p {
+     font-size: 1.2em;
+     margin-bottom: 40px;
+ }
+ 
+ /* About Section Styles */
+ #about {
+     background: #fff;
+     padding: 80px 0;
+ }
+ 
+ /* Services Section Styles */
+ #services {
+     background: #f9f9f9;
+     padding: 80px 0;
+ }
+ 
+ /* Contact Section Styles */
+ #contact {
+     background: #333;
+     color: #fff;
+     padding: 80px 0;
+     text-align: center;
+ }
+ 
+ #contact h2 {
+     font-size: 2em;
+     margin-bottom: 20px;
+ }
+ 
+ #contact p {
+     font-size: 1.2em;
+     margin-bottom: 40px;
+ }
+ .navbar {
+     background-color: #333;
+     text-align: center;
+     padding: 10px 0;
+ }
+ 
+ .nav-btn {
+     background-color: #000000;
+     color: #fff;
+     border: none;
+     padding: 0px 5px;
+     margin:  5px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ 
+ .nav-btn:hover {
+     background-color: #777;
+ }
+ .data{
+     padding-left: 170px;
+     padding-right: 170px;
+     margin: auto;
+     padding-bottom: 30px;
+     font-family: "Libre Caslon Text", serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+ table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+ th, td {
+     border: 1px solid #ddd;
+     padding: 5px;
+     text-align: left;
+ }
+ th {
+     background-color: #f2f2f2;
+ }
+ tr:nth-child(even) {
+     background-color: #eeb0b0;
+ }
+ 
