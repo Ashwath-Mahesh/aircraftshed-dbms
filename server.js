@@ -3,6 +3,7 @@ const mysql = require('mysql2');
 const bodyParser = require('body-parser');
 const path = require('path');
 const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
 const port = 3000;
@@ -12,9 +13,10 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const db = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
 });
 
 db.connect((err) => {
